@@ -225,6 +225,7 @@ function dsframework_scripts() {
 			wp_enqueue_script( 'comment-reply' );
 		}
 
+    wp_enqueue_script( 'konami-js', DS_THEME_PATH . '/js/konami.js' );
 		wp_enqueue_script( 'main-theme-js', DS_THEME_PATH . '/js/main.js' );
 
 		wp_localize_script( 'main-theme-js', 'dsframework_vars', array(

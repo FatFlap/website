@@ -1,5 +1,8 @@
 // All theme js logic, except slider code
 jQuery(document).ready(function($) {
+
+  var konami = new Konami('https://www.google.com/search?tbm=isch&q=fatflap&tbs=imgo:1');
+
 	var TouchfolioManager = (function() {
 	    var body = $('body'),
 			jqWindow = $(window),
